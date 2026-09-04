@@ -30,6 +30,10 @@ def dividir(numero1, numero2):
     try:
         return numero1/ numero2
     except ZeroDivisionError:
-        return "El segundo valor debe ser mayor que 0"
+        return "El segundo valor debe ser diferente que 0"
+
+print(multiplicar(4, 2))
+
+print(dividir(20, 5))
 
 # Siempre crear variables en inglés.
