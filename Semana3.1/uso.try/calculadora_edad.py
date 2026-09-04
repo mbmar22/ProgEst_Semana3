@@ -3,7 +3,7 @@ from datetime import date
 from colorama import Fore, Style
 
 try:
-    birth_year = int(input("Dime el año en que naciste: "))
+    birth_year = int(input("Dime el año en que naciste [dd/mm/yyyy]: "))
     age = date.today().year - birth_year
     if age >= 18:
         print("Usted es mayor de edad.")
